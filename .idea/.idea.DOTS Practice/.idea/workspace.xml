@@ -31,6 +31,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Movable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.quicksearch@3.0.0-preview.1/Editor/Indexing/IndexManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/MovableSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -38,9 +39,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Movable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/MovableSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/MovableSystem.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603306790526</updated>
-      <workItem from="1603306802345" duration="1616000" />
+      <workItem from="1603306802345" duration="2324000" />
+      <workItem from="1603388652740" duration="2219000" />
     </task>
     <servers />
   </component>
@@ -98,6 +100,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

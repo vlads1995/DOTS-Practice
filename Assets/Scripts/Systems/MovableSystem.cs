@@ -3,6 +3,7 @@ using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
+using Unity.Physics;
 using Unity.Transforms;
 
 public class MovableSystem : SystemBase
@@ -11,10 +12,11 @@ public class MovableSystem : SystemBase
     {
         float dt = Time.DeltaTime;
         
-        Entities.ForEach((ref Movable movable, ref Translation translation, ref Rotation rot) =>
+        Entities.ForEach((ref PhysicsVelocity physicsVelocity, in Movable movable) =>
         {
-            translation.Value += movable.speed * movable.direction * dt;
-            rot.Value = math.mul(rot.Value.value, quaternion.RotateY(movable.speed * dt));
+            var step = movable.direction * movable.speed;
+            physicsVelocity.Linear = step;
+            
         }).Schedule();
     }
 }
