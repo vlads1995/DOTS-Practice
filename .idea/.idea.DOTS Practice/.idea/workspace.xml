@@ -29,11 +29,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Movable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Damage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.quicksearch@3.0.0-preview.1/Editor/Indexing/IndexManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/MovableSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/CollisionBufferAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Movable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/CollisionBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/TriggerBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CollisionSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/DamageSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/MovableSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Kill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/EnemySystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,6 +51,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/MovableSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/EnemySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/TriggerBuffer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/CollisionSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Damage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Kill.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Authoring/CollisionBufferAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/CollisionBuffer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/DamageSystem.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +100,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603306790526</updated>
       <workItem from="1603306802345" duration="2324000" />
-      <workItem from="1603388652740" duration="2219000" />
+      <workItem from="1603388652740" duration="2904000" />
+      <workItem from="1603554201456" duration="8038000" />
     </task>
     <servers />
   </component>
