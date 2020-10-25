@@ -1,5 +1,7 @@
 ﻿using Components;
+using Monobehaviour;
 using Unity.Entities;
+using Unity.Transforms;
 
 namespace Systems
 {
@@ -33,17 +35,31 @@ namespace Systems
             }).WithStructuralChanges().Run();
 
             var ecbSystem = World.GetOrCreateSystem<EndSimulationEntityCommandBufferSystem>();
-            var ecb = ecbSystem.CreateCommandBuffer().ToConcurrent();
+            var ecb = ecbSystem.CreateCommandBuffer();
             
-            Entities.ForEach((Entity e, int entityInQueryIndex, ref Kill kill) =>
+            Entities.ForEach((Entity e, ref Kill kill, in Translation translation, in Rotation rot) =>
             {
+                if (HasComponent<OnKill>(e))
+                {
+                    var onKill = GetComponent<OnKill>(e);
+                    AudioManager.instance.PlaySfxRequest(onKill.sfxName.ToString());
+                    GameManager.instance.AddPoints(onKill.pointValue);
+
+                    if (EntityManager.Exists(onKill.spawnPrefab))
+                    {
+                        var spawnedEntity = ecb.Instantiate(onKill.spawnPrefab);
+                        ecb.AddComponent(spawnedEntity, translation);
+                        ecb.AddComponent(spawnedEntity, rot);
+                    }
+                }
+                
                 kill.timer -= dt;
                 if (kill.timer <= 0)
                 {
-                    ecb.DestroyEntity(entityInQueryIndex, e);
+                    ecb.DestroyEntity(e);
                 }
                 
-            }).Schedule();
+            }).WithoutBurst().Run();
 
             ecbSystem.AddJobHandleForProducer(this.Dependency);
         }
