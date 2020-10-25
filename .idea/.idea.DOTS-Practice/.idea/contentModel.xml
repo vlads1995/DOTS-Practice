@@ -7,6 +7,7 @@
         <e p="Scripts" t="Include">
           <e p="Authoring" t="Include">
             <e p="CameraAuthoring.cs" t="Include" />
+            <e p="HealthAuthoring.cs" t="Include" />
             <e p="OnKillAuthoring.cs" t="Include" />
             <e p="PhysicsEventsAuthoring.cs" t="Include" />
             <e p="SpawnerAuthoring.cs" t="Include" />
@@ -32,6 +33,7 @@
           <e p="Monobehaviour" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
+            <e p="PlayerAnim.cs" t="Include" />
           </e>
           <e p="Systems" t="Include">
             <e p="CameraSystem.cs" t="Include" />

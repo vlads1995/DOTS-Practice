@@ -21,6 +21,12 @@ namespace Systems
             var minDist = float.MaxValue;
 
             var cameraQuery = GetEntityQuery(typeof(CameraTag), typeof(Follow));
+
+            if (cameraQuery.CalculateEntityCount() <= 0)
+            {
+                return;
+            }
+            
             var cameraEntity = cameraQuery.GetSingletonEntity();
             var cameraFollow = GetComponent<Follow>(cameraEntity);
 

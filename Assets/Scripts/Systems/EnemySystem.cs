@@ -21,10 +21,12 @@ namespace Systems
             
             Entities.ForEach((ref Movable movable, ref Enemy enemy, in Translation translation) =>
             {
-                if (math.distance(translation.Value, enemy.previousCell) > 0.9f)
+                bool hitWall = raycaster.CheckRay(translation.Value, movable.direction, movable.direction);
+                
+                if (math.distance(translation.Value, enemy.previousCell) > 0.9f || hitWall)
                 {
                     enemy.previousCell = math.round(translation.Value);
-
+                    
                     //raycasts here
                     var validDir = new NativeList<float3>(Allocator.Temp);
 
@@ -63,12 +65,11 @@ namespace Systems
             public bool CheckRay(float3 pos, float3 direction, float3 currentDirection)
             {
                 if (direction.Equals(-currentDirection)) return true;
-                //if (direction.Equals(currentDirection)) return false;
                 
                 var ray = new RaycastInput()
                 {
                     Start = pos,
-                    End = pos + (direction * 0.9f),
+                    End = pos + (direction * 0.7f),
                     Filter = new CollisionFilter()
                     {
                         GroupIndex = 0,

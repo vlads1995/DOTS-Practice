@@ -1,4 +1,5 @@
 ﻿using Components;
+using Monobehaviour;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
@@ -29,13 +30,15 @@ public class PlayerSystem : SystemBase
                 dmg.value = 100;
                 pill.pillTimer -= dt;
                 hp.invincibleTimer = pill.pillTimer;
-
+                AudioManager.instance.PlayMusicRequest("powerup");
+                
                 if (pill.pillTimer <= 0)
                 {
+                    AudioManager.instance.PlayMusicRequest("game");
                     dmg.value = 0;
                     ecb.RemoveComponent<PowerPill>(e);
                 }
 
-            }).Run();
+            }).WithoutBurst().Run();
     }
 }

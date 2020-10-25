@@ -19,16 +19,18 @@ namespace Systems
                     {
                         hp.value -= GetComponent<Damage>(col[i].Entity).value;
                         hp.invincibleTimer = 1;
+                        AudioManager.instance.PlaySfxRequest(hp.damageSfx.ToString());
                     }
                 }
                 
-            }).Schedule();
+            }).WithoutBurst().Run();
 
             Entities.WithNone<Kill>().ForEach((Entity e, ref Health hp) =>
             {
                 hp.invincibleTimer -= dt;
                 if (hp.value <= 0)
                 {
+                    AudioManager.instance.PlaySfxRequest(hp.deathSfx.ToString());
                     EntityManager.AddComponentData(e, new Kill() {timer = hp.killTimer});
                 }
                 
@@ -38,24 +40,24 @@ namespace Systems
             var ecb = ecbSystem.CreateCommandBuffer();
             
             Entities.ForEach((Entity e, ref Kill kill, in Translation translation, in Rotation rot) =>
-            {
-                if (HasComponent<OnKill>(e))
-                {
-                    var onKill = GetComponent<OnKill>(e);
-                    AudioManager.instance.PlaySfxRequest(onKill.sfxName.ToString());
-                    GameManager.instance.AddPoints(onKill.pointValue);
-
-                    if (EntityManager.Exists(onKill.spawnPrefab))
-                    {
-                        var spawnedEntity = ecb.Instantiate(onKill.spawnPrefab);
-                        ecb.AddComponent(spawnedEntity, translation);
-                        ecb.AddComponent(spawnedEntity, rot);
-                    }
-                }
-                
+            {   
                 kill.timer -= dt;
                 if (kill.timer <= 0)
                 {
+                    if (HasComponent<OnKill>(e))
+                    {
+                        var onKill = GetComponent<OnKill>(e);
+                        AudioManager.instance.PlaySfxRequest(onKill.sfxName.ToString());
+                        GameManager.instance.AddPoints(onKill.pointValue);
+
+                        if (EntityManager.Exists(onKill.spawnPrefab))
+                        {
+                            var spawnedEntity = ecb.Instantiate(onKill.spawnPrefab);
+                            ecb.AddComponent(spawnedEntity, translation);
+                            ecb.AddComponent(spawnedEntity, rot);
+                        }
+                    }
+                    
                     ecb.DestroyEntity(e);
                 }
                 

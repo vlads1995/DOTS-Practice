@@ -10,26 +10,31 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/DamageSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CollisionSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/CameraPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CollectionSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/EnemySystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/MovableSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/SpawnerAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/PowerPill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Follow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CameraSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/OnKill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/SpawnSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/GameStateSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/HealthAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/CameraAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/PlayerAnim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/CameraTag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/CameraPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CollectionSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Downloads/DotsMan_Complete/Assets/Scripts/Monobehaviour/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/PowerPill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CameraSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Collectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/OnKillAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/FollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/CameraAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/CameraTag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/PhysicsEventsAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Pellet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -39,18 +44,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Pallet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Pellet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/PowerPill.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Authoring/SpawnerAuthoring.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SpawnSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviour/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/CollectionSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/GameStateSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviour/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/OnKill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Authoring/OnKillAuthoring.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/DamageSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/CametaTag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Authoring/CameraAuthoring.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Follow.cs" />
@@ -58,6 +59,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/CameraPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/CameraTag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/CameraSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Authoring/HealthAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/DamageSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/GameStateSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviour/PlayerAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/EnemySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviour/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -71,7 +80,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -94,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603567210543</updated>
-      <workItem from="1603567218934" duration="10554000" />
+      <workItem from="1603567218934" duration="15323000" />
+      <workItem from="1603631564846" duration="4486000" />
     </task>
     <servers />
   </component>
@@ -105,5 +115,15 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="210" key="SettingsEditor" timestamp="1603633372399">
+      <screen x="53" y="23" width="1739" height="1097" />
+    </state>
+    <state x="424" y="210" key="SettingsEditor/-530.-1417.2560.1417/53.23.1739.1097@53.23.1739.1097" timestamp="1603633372399" />
+    <state x="585" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1603633322845">
+      <screen x="53" y="23" width="1739" height="1097" />
+    </state>
+    <state x="585" y="266" width="672" height="678" key="search.everywhere.popup/-530.-1417.2560.1417/53.23.1739.1097@53.23.1739.1097" timestamp="1603633322845" />
   </component>
 </project>
