@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Monobehaviour;
+﻿using Monobehaviour;
 using TMPro;
 using Unity.Entities;
 using Unity.Scenes;
@@ -12,7 +9,7 @@ public class GameManager : MonoBehaviour
 {
    public static GameManager instance;
 
-   public SubScene[] levelSubScenes;
+   public SubScene[] scenes;
    [Space]
    public PlayerAnim playerAnim;
    [Space]
@@ -30,7 +27,7 @@ public class GameManager : MonoBehaviour
    public int level;
    public int lives;
 
-   private Entity currentLevelEntity;
+   private string currentSceneName;
    
    public void Awake()
    {
@@ -127,14 +124,27 @@ public class GameManager : MonoBehaviour
       UnloadLevel();
       level = newLevel;
       lives = 3;
-     
-      var sceneSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystem<SceneSystem>();
-      currentLevelEntity = sceneSystem.LoadSceneAsync(levelSubScenes[level].SceneGUID);
+      
+      currentSceneName = scenes[level].name;
+      SceneManager.LoadSceneAsync(currentSceneName, LoadSceneMode.Additive);
+      
+      //var sceneSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystem<SceneSystem>();
+      //currentLevelEntity = sceneSystem.LoadSceneAsync(levelSubScenes[level].SceneGUID);
    }
 
    public void UnloadLevel()
    {
-      var sceneSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystem<SceneSystem>();
-      sceneSystem.UnloadScene(currentLevelEntity);
+      var em = World.DefaultGameObjectInjectionWorld.EntityManager;
+      foreach (var e in em.GetAllEntities())
+      {
+         em.DestroyEntity(e);
+      }
+      
+      if (SceneManager.GetSceneByName(currentSceneName).isLoaded)
+      {
+         SceneManager.UnloadSceneAsync(currentSceneName);
+      }      
+      //var sceneSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystem<SceneSystem>();
+      //sceneSystem.UnloadScene(currentLevelEntity);
    }
 }

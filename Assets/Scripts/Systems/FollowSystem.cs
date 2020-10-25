@@ -15,6 +15,12 @@ namespace Systems
                 .WithAll<Translation, Rotation>()
                 .ForEach((Entity e, in Follow follow) =>
             {  
+                
+                if(!EntityManager.Exists(follow.target))
+                {
+                    return;
+                }
+                
                 var currentPos = GetComponent<Translation>(e).Value;
                 var currentRot = GetComponent<Rotation>(e).Value;
                 
@@ -36,7 +42,7 @@ namespace Systems
                 SetComponent(e, new Rotation() { Value = targetRot});
 
                 
-            }).Schedule();
+            }).WithoutBurst().Run();
         }
     }
 }

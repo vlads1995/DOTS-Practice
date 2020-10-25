@@ -8,24 +8,77 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Authoring" t="Include">
-            <e p="CollisionBufferAuthoring.cs" t="Include" />
+            <e p="CameraAuthoring.cs" t="Include" />
+            <e p="HealthAuthoring.cs" t="Include" />
+            <e p="OnKillAuthoring.cs" t="Include" />
+            <e p="PhysicsEventsAuthoring.cs" t="Include" />
+            <e p="SpawnerAuthoring.cs" t="Include" />
           </e>
           <e p="Components" t="Include">
+            <e p="CameraPoint.cs" t="Include" />
+            <e p="CameraTag.cs" t="Include" />
+            <e p="Collectable.cs" t="Include" />
             <e p="CollisionBuffer.cs" t="Include" />
             <e p="Damage.cs" t="Include" />
             <e p="Enemy.cs" t="Include" />
+            <e p="Follow.cs" t="Include" />
             <e p="Health.cs" t="Include" />
             <e p="Kill.cs" t="Include" />
             <e p="Movable.cs" t="Include" />
+            <e p="OnKill.cs" t="Include" />
+            <e p="Pellet.cs" t="Include" />
             <e p="Player.cs" t="Include" />
+            <e p="PowerPill.cs" t="Include" />
+            <e p="Spawner.cs" t="Include" />
             <e p="TriggerBuffer.cs" t="Include" />
           </e>
+          <e p="Monobehaviour" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="PlayerAnim.cs" t="Include" />
+          </e>
           <e p="Systems" t="Include">
+            <e p="CameraSystem.cs" t="Include" />
+            <e p="CollectionSystem.cs" t="Include" />
             <e p="CollisionSystem.cs" t="Include" />
             <e p="DamageSystem.cs" t="Include" />
             <e p="EnemySystem.cs" t="Include" />
+            <e p="FollowSystem.cs" t="Include" />
+            <e p="GameStateSystem.cs" t="Include" />
             <e p="MovableSystem.cs" t="Include" />
             <e p="PlayerSystem.cs" t="Include" />
+            <e p="SpawnSystem.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>
