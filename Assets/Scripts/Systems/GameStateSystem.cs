@@ -13,7 +13,7 @@ namespace Systems
             var pelletQuery = GetEntityQuery(ComponentType.ReadOnly<Pellet>());
             var playerQuery = GetEntityQuery(ComponentType.ReadOnly<Player>());
             var enemyQuery = GetEntityQuery(ComponentType.ReadOnly<Enemy>());
-            var spawnerQuery = GetEntityQuery(typeof(Spawner));
+            var spawnerQuery = GetEntityQuery(typeof(PerfomanceGeneralSpawner));
             
             var pelletCount = pelletQuery.CalculateEntityCount();
             

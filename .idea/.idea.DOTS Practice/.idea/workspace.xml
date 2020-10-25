@@ -30,24 +30,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Damage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/SpawnerAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Health.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/SpawnSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CollectionSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/GameStateSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/TriggerBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/FollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Follow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Movable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/CollisionBuffer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/TriggerBuffer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/FollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CollisionSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/DamageSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/CameraAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/MovableSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Kill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/EnemySystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,6 +74,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/GameStateSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Authoring/CameraAuthoring.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviour/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PerfomanceTest/CubeAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PerfomanceTest/SpawnCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PerfomanceTest/PerfomanceTestMovable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PerfomanceTest/PerfomanceTestMovableSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PerfomanceTest/SpawnCubeAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PerfomanceTest/SpawnCubeComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PerfomanceTest/CubeSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/PerfomanceTest/Scripts/SpawnCubeAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/PerfomanceTest/Scripts/PerfomanceTestAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/PerfomanceTest/Scripts/PerfomanceTestMovableAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/PerfomanceTest/Scripts/PerfomanceTestMovableSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/PerfomanceTest/Scripts/PerfomanceTestMovable.cs" />
+        <option value="$PROJECT_DIR$/Assets/PerfomanceTest/Scripts/CubeSpawnerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/GeneralUnityPerfomanceTest/PerfomanceGeneralSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SpawnSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Authoring/SpawnerAuthoring.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +131,9 @@
       <workItem from="1603306802345" duration="2324000" />
       <workItem from="1603388652740" duration="2904000" />
       <workItem from="1603554201456" duration="8707000" />
-      <workItem from="1603639154341" duration="1947000" />
+      <workItem from="1603639154341" duration="2390000" />
+      <workItem from="1603645386089" duration="2337000" />
+      <workItem from="1603648247383" duration="2033000" />
     </task>
     <servers />
   </component>
