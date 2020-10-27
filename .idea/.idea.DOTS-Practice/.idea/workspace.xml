@@ -15,6 +15,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/PlayerSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/SpawnerAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Follow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/SpawnCubeComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/CubeSpawnerSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/OnKill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/SpawnSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -22,20 +24,29 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/HealthAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/CameraAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/PlayerAnim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/SpawnPhysicsCubeAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/CameraTag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/CameraPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CollectionSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Downloads/DotsMan_Complete/Assets/Scripts/Monobehaviour/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.11.2-preview.1/Unity.Entities/EntityManagerCreateDestroyEntities.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/PowerPill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/CameraSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/SpawnPhysicsCubeComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/PhysicsCubeSpawnerSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Collectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/OnKillAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/FollowSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/SpawnCubeAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Authoring/PhysicsEventsAuthoring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General Unity PerfomanceTest/Scripts/PhysicsGeneralSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DOTS Perfomance Test/Cube Phys Havok.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monobehaviour/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General Unity PerfomanceTest/Scripts/PerfomanceGeneralSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Pellet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General Unity PerfomanceTest/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,6 +78,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviour/PlayerAnim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/EnemySystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monobehaviour/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/General Unity PerfomanceTest/Scripts/Mover.cs" />
+        <option value="$PROJECT_DIR$/Assets/General Unity PerfomanceTest/Scripts/PerfomanceGeneralSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/General Unity PerfomanceTest/Scripts/PhysicsGeneralSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/SpawnPhysicsCubeComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/DotsPhysicsCubeAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/SpawnPhysicsCubeAuthoring.cs" />
+        <option value="$PROJECT_DIR$/Assets/DOTS Perfomance Test/Scripts/PhysicsCubeSpawnerSystem.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603567210543</updated>
       <workItem from="1603567218934" duration="15323000" />
-      <workItem from="1603631564846" duration="4486000" />
+      <workItem from="1603631564846" duration="4922000" />
+      <workItem from="1603746479651" duration="2800000" />
     </task>
     <servers />
   </component>
